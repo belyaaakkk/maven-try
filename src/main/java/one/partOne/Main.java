@@ -121,6 +121,8 @@ public class Main {
         System.arraycopy(b, 0, c, a.length, b.length);
 
         System.out.println(Arrays.toString(c));
+
+        System.out.println("Hello world!");
     }
 
     //9.
