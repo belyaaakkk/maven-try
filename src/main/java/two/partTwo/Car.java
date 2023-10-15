@@ -1,4 +1,4 @@
-package two.partThree;
+package two.partTwo;
 
 public class Car {
     private Body body;

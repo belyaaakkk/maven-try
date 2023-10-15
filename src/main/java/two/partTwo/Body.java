@@ -1,4 +1,4 @@
-package two.partThree;
+package two.partTwo;
 
 public class Body {
     private String type;
