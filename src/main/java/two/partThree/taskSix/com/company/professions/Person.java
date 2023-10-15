@@ -1,4 +1,4 @@
-package two.partThree.taskFive.com.company.professions;
+package two.partThree.taskSix.com.company.professions;
 
 public class Person {
     private String fullName;

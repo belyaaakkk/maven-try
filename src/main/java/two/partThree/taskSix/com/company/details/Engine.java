@@ -1,4 +1,4 @@
-package two.partThree.taskFive.com.company.details;
+package two.partThree.taskSix.com.company.details;
 
 public class Engine {
     private double power;

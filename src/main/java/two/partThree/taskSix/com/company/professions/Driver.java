@@ -1,4 +1,4 @@
-package two.partThree.taskFive.com.company.professions;
+package two.partThree.taskSix.com.company.professions;
 
 public class Driver extends Person{
     private int drivingExperience;

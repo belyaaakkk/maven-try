@@ -1,7 +1,7 @@
-package two.partThree.taskFive.com.company.vehicles;
+package two.partThree.taskSix.com.company.vehicles;
 
-import two.partThree.taskFive.com.company.details.Engine;
-import two.partThree.taskFive.com.company.professions.Driver;
+import two.partThree.taskSix.com.company.details.Engine;
+import two.partThree.taskSix.com.company.professions.Driver;
 
 public class SportCar extends Car{
     private int maxSpeed;
