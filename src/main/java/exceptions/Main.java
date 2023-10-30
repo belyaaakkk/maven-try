@@ -1,5 +1,7 @@
 package exceptions;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 
 public class Main {
@@ -38,12 +40,20 @@ public class Main {
 //        } catch (ArithmeticException e) {
 //            System.out.println("Деление на ноль: " + e);
 //        }
+//        try {
+//            throwOne();
+//        } catch (IllegalAccessException e){
+//            System.out.println("Перехвачено " + e);
+//        }
         try {
-            throwOne();
-        } catch (IllegalAccessException e){
-            System.out.println("Перехвачено " + e);
+            FileWriter fileWriter = new FileWriter("out.txt");
+            fileWriter.close();
+            fileWriter.write("Hello world!");
+        } catch (IOException e) {
+            System.err.println("Ошибка - нельзя записать в закрытый файл!");
         }
     }
+
     static void throwOne() throws IllegalAccessException {
         System.out.println("Внутри throwOne().");
         throw new IllegalAccessException("demo");
